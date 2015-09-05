@@ -1,3 +1,28 @@
 body{
     background-color:#76C4AE;
+    font-size:16px;
+}
+
+img{
+    float:right;
+    height:350px;
+    width:350px;
+    padding:25px;
+    display:inline-block;
+}
+
+h1{
+    padding-top:25px;
+    padding-left:75px;
+    padding-bottom:25px;
+    padding-right:25px;
+}
+
+.tutvustus{
+    display:inline-block;
+}
+
+.elements{
+    margin-left:250px;
+    margin-right:250px;
 }
