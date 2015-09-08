@@ -1,7 +1,8 @@
 body{
     background-color:#76C4AE;
     font-size:16px;
-    text-decoration:underline;
+    text-decoration:none;
+    white-space:nowrap;
 }
 
 img{
@@ -14,6 +15,7 @@ img{
 
 h1{
     padding:25px 75px 25px 25px;
+    text-align:center;
 }
 
 .tutvustus{
@@ -31,4 +33,20 @@ p{
     font-style: italic;
     font-size: 15px;
     font-weight:100;
+}
+
+.Button{
+    border: 2px black inset;
+    background-image:url("http://image.shutterstock.com/display_pic_with_logo/1175219/121787242/stock-photo-duotone-camo-small-circle-background-repetitive-121787242.jpg");
+    background-color:cadetblue;
+    background-repeat:no-repeat;
+    border-radius:5px;
+    height:20px;
+    width:50px;
+}
+
+a:link, a:visited {
+    color:white;
+    text-decoration: none;
+    cursor: auto;
 }
