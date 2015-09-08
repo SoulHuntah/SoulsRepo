@@ -11,6 +11,8 @@ img{
     width:350px;
     padding:25px;
     display:inline-block;
+    vertical-align:text-top;
+    position:static;
 }
 
 h1{
@@ -33,6 +35,8 @@ p{
     font-style: italic;
     font-size: 15px;
     font-weight:100;
+    min-width:10px;
+    max-width:50px;
 }
 
 .Button{
@@ -48,5 +52,18 @@ p{
 a:link, a:visited {
     color:white;
     text-decoration: none;
-    cursor: auto;
+    cursor: pointer;
+}
+
+.small{
+    text-shadow:2px 2px #ffffff;
+    line-height:50%;
+}
+
+table{
+    box-shadow:2px 2px grey;
+}
+
+ul{
+    list-style-type:upper-roman;
 }
