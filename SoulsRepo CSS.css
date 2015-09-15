@@ -62,6 +62,7 @@ a:link, a:visited {
 
 table{
     box-shadow:2px 2px grey;
+    border: 2px black solid;
 }
 
 ul{
