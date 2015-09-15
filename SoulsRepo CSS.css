@@ -60,7 +60,7 @@ a:link, a:visited {
     line-height:50%;
 }
 
-table, tr, td {
+table, tr, td, th {
     box-shadow:2px 2px grey;
     border: 2px black solid;
 }
